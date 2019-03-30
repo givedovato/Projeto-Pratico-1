@@ -1,0 +1,101 @@
+.menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    font-size: 30px;
+}
+
+.menu ul li 
+{ 
+    display: inline; 
+    border: 1px solid #000;
+    margin: 0 0 0 0;
+    padding: 0%;
+ }
+
+ 
+
+a.menu
+{
+    text-decoration: none;
+}
+#main ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#main ul li 
+{ 
+    display: inline; 
+}
+.divLogo
+{
+    min-height: 200px; 
+    width:30%;
+    float: left;
+}
+.divBusca
+{
+    background-color: transparent;
+    border:solid 1px;
+    border-radius:15px;
+    width:40%;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 45;
+    left: 30;
+    
+ }
+ .divCarrinho
+ {
+    min-height: 200px; 
+    width:30%;
+    float: right;
+ }
+
+ #txtBusca
+ {
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    width:40%;
+    height: 30px;
+  }
+
+#divPrincipal
+  {
+    clear:both;
+    background-color: rgb(193, 193, 248);
+    position: relative;
+    float: top;
+}
+
+.divMenuPrincipal
+{
+    clear:both;
+}
+footer
+{
+    clear:both;
+    font-size: 15px;
+    text-align: center;
+}
+/*classe*/
+.container{
+    margin: auto;
+}
+#produtos
+{
+    display: inline;
+}
+#linha1
+{
+    display: block;
+}

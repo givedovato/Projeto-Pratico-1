@@ -1,0 +1,75 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rede Grande Sul</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <header>
+                <div id="divHeader">
+                <div id="inicial1">
+                    <div id="divBemVindo">
+                       <p>Seja bem vindo, faça seu <a href="https://www.dia.com.br/login">login</a> ou <a href="https://www.dia.com.br/login">cadastre-se</a></p> 
+                    </div>
+                    <div id="divMenuHome">
+                        <nav id="main">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sobre.html">Sobre Nós</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div id="divPrincipal2">
+                    <div class="divLogo">
+                        <a href="index.html"><img src="imagens/redegrandesul_logomarca.png"></a>
+                    </div>
+                    <div class="divBusca">
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    </div>
+                    <div class="divCarrinho">
+                            <img src="imagens/carrinho.png">
+                    </div>
+                </div>  
+                </div>  
+            </header>
+        <form>
+            <h2>Atendimento Eletrônico </h2>
+            <div>
+                <input type="text" name="nome" placeholder="Nome">
+            </div>
+            <div>
+                <input type="text" name="email" placeholder="E-mail">
+                <input type="text" name="telefone" placeholder="Telefone">
+            </div>
+            <div>
+                <input type="text" name="protocolo" placeholder="Numero do Protocolo"> 
+                <label>Escolha a Área: </label>
+                <select name="selecaoarea">
+                    <option value="1">Comercial</option>
+                    <option value="2">Financeiro</option>
+                </select>
+            </div>
+            <div>
+                <label>Selecione o motivo do contato: </label>
+                <select name="selecaocontato">
+                    <option value="1">Duvidas</option>
+                    <option value="2">Reclamações</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="comentario"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form> 
+        <footer>Rede RG Supermercados | CNPJ: 22 .476.811/0001-51 | Av. das Nações Unidas, 8000 - Primavera. Novo Hamburgo - RS CEP: 93150-146</footer>
+</body>
+</html>
